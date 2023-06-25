@@ -80,4 +80,23 @@ body, html {
 .education-details {
     margin-top: 10px;
 }
+.degree-image-container {
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px; 
+    overflow: hidden;
+    border-radius: 10px; 
+}
+
+.degree-image {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
 

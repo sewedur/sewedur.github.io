@@ -5,4 +5,17 @@
     padding: 10px 0;
     font-weight: bold;
     font-size: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -100%;
+    }
 }

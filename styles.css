@@ -56,3 +56,28 @@ body, html {
     margin-top: 10px;
 }
 
+.education-section {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.education {
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.education-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.education-institution {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.education-details {
+    margin-top: 10px;
+}
+

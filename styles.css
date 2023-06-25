@@ -1,102 +1,49 @@
-/* styles.css */
-body, html {
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
 }
 
-.banner {
-    background-color: #ffcc00;
-    padding: 20px 0;
-    overflow: hidden;
-    position: relative;
-    white-space: nowrap;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-.banner-text {
-    display: inline-block;
-    position: absolute;
-    font-weight: bold;
-    font-size: 80px;
-    animation: marquee 10s linear infinite;
+.site-header, .site-footer {
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
 }
 
-@keyframes marquee {
-    0% {
-        left: 100%;
-    }
-    100% {
-        left: -50%;
-    }
+.site-main {
+    padding: 2rem;
 }
 
-.experience-section {
-    margin: 40px 0;
-    padding: 20px;
-}
-
-.job {
-    margin: 20px 0;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-}
-
-.job-title {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.job-company {
-    font-size: 1.2em;
-    color: #555;
-}
-
-.job-description {
-    margin-top: 10px;
-}
-
-.education-section {
-    margin: 40px 0;
-    padding: 20px;
+.section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f4f4f4;
 }
 
 .education {
-    margin: 20px 0;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
-.education-title {
-    font-size: 1.5em;
-    font-weight: bold;
+.education-content {
+    flex: 1;
 }
 
-.education-institution {
-    font-size: 1.2em;
-    color: #555;
-}
-
-.education-details {
-    margin-top: 10px;
-}
 .degree-image-container {
-    float: right;
-    margin-left: 20px;
-    width: 200px;
-    height: 200px; 
-    overflow: hidden;
-    border-radius: 10px; 
+    margin-left: 1rem;
 }
 
 .degree-image {
-    width: 100%;
-    height: auto;
+    max-width: 150px;
+    border-radius: 5px;
 }
 
-
-
-
-
-
-
+ul {
+    list-style: none;
+    padding-left: 0;
+}

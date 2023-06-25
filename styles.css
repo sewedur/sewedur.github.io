@@ -18,7 +18,7 @@ body, html {
     display: inline-block;
     position: absolute;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 80px;
     animation: marquee 10s linear infinite;
 }
 

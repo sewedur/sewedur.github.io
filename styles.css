@@ -9,6 +9,7 @@ body, html {
 .banner {
     background-color: #ffcc00;
     padding: 20px 0;
+    height: 50px;
     overflow: hidden;
     position: relative;
     white-space: nowrap;

@@ -18,7 +18,7 @@ body, html {
     display: inline-block;
     position: absolute;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
     animation: marquee 10s linear infinite;
 }
 
@@ -30,3 +30,29 @@ body, html {
         left: -50%;
     }
 }
+
+.experience-section {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.job {
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.job-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.job-company {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.job-description {
+    margin-top: 10px;
+}
+

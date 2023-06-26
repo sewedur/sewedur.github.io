@@ -1,14 +1,10 @@
-body, h1, h2, h3, p {
+/* Reset some default margins and paddings */
+body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
+/* Set up the header */
 .site-header {
     background: #333;
     color: #ffffff;
@@ -16,30 +12,46 @@ body, html {
     padding: 1rem 0;
 }
 
+/* Create a flex container to position the summary and skills section to the left and the image to the right */
 .content-wrapper {
     display: flex;
 }
 
+/* Style the left section */
 .left-section {
     flex: 1;
-    background: #f4f4f4;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
+/* Add backgrounds, margin and padding to the summary and skills section */
+.summary-section, .skills-section {
+    background: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+/* Style the right section */
 .right-section {
     flex: 1;
     background: #e0e0e0;
     text-align: center;
+    padding: 1rem;
 }
 
+/* Style the profile image */
 .profile-image {
     max-width: 80%;
     margin-top: 2rem;
 }
 
-.summary-section, .skills-section {
-    margin-bottom: 2rem;
+/* Add some space between list items in skills */
+.skills-section ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
 }
+
 
 .education {
     display: flex;
@@ -60,6 +72,6 @@ body, html {
 }
 
 ul {
-    list-style: none;
+    list-style: asterisk;
     padding-left: 0;
 }

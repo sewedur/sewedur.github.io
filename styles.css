@@ -1,71 +1,124 @@
-body, h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    padding-top: 100px;
-}
-
+/* Header styling */
 .site-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #2E3A4B;
-    color: #FFFFFF;
-    padding: 10px 20px;
-    z-index: 100;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
 }
 
+/* Content wrapper styling */
 .content-wrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: 40px;
+    margin: 1rem;
 }
 
-.summary-section, .skills-section {
+.left-section, .right-section {
     flex: 1;
-    background-color: #F0F0F0;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
+    padding: 1rem;
 }
 
+/* Left Section styling */
+.left-section {
+    background-color: #dfe6e9;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.summary-section {
+    background-color: #74b9ff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.skills-section {
+    background-color: #55efc4;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* Right Section styling */
 .right-section {
-    flex: 1;
     text-align: center;
-    padding: 20px;
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
     border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
+/* Experience section styling */
+.experience-section {
+    background-color: #dfe6e9;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.job {
+    margin-bottom: 1rem;
+}
+
+/* Education section styling */
 .education-section {
+    background-color: #dfe6e9;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
     display: flex;
-    background-color: #E8E8E8;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 40px;
+    flex-wrap: wrap;
 }
 
-.education-content, .degree-image-container {
+.education {
     flex: 1;
-    padding: 20px;
+    display: flex;
+}
+
+.education-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.degree-image-container {
+    flex: 1;
+    text-align: center;
 }
 
 .degree-image {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
+/* Certifications section styling */
+.certifications-section {
+    background-color: #a29bfe;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+/* Portfolio section styling */
+.portfolio-section {
+    background-color: #ffeaa7;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+/* Footer section styling */
 .site-footer {
-    background-color: #2E3A4B;
-    color: #FFFFFF;
-    padding: 20px;
+    background-color: #333;
+    color: #fff;
     text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .left-section, .right-section {
+        flex: 100%;
+        margin-right: 0;
+    }
 }

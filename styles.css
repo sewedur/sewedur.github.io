@@ -1,140 +1,71 @@
-/* Reset some default styles in the browser */
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 }
 
-/* Apply a background color to the body */
 body {
-    background-color: #f9f9f9;
     font-family: Arial, sans-serif;
+    padding-top: 100px;
 }
 
-/* Add some padding and center content */
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2E3A4B;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    z-index: 100;
+}
+
 .content-wrapper {
     display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
     flex-wrap: wrap;
+    margin: 40px;
 }
 
-/* Header styles */
-.site-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    position: fixed; /* New */
-    width: 100%; /* New */
-    top: 0; /* New */
-    z-index: 1000; /* New */
-}
-
-
-/* Left section */
-.left-section {
+.summary-section, .skills-section {
     flex: 1;
-    padding: 20px;
-    background-color: #ecf0f1;
-    margin-right: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Summary section */
-.summary-section {
-    background-color: #bdc3c7;
+    background-color: #F0F0F0;
     padding: 20px;
     margin-bottom: 20px;
-    border-radius: 10px;
-    flex: 1;
+    border-radius: 8px;
 }
 
-/* Skills section */
-.skills-section {
-    background-color: #bdc3c7;
-    padding: 20px;
-    border-radius: 10px;
-    flex: 1;
-}
-
-/* Right section */
 .right-section {
     flex: 1;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
 }
 
 .profile-image {
-    width: 70%;
-    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-/* Generic section styles */
-.section {
-    background-color: #ecf0f1;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-}
-
-/* Education section */
-.education-section .education {
+.education-section {
     display: flex;
-    justify-content: space-between;
+    background-color: #E8E8E8;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 40px;
 }
 
-.degree-image-container {
-    padding: 10px;
+.education-content, .degree-image-container {
+    flex: 1;
+    padding: 20px;
 }
 
 .degree-image {
-    max-width: 400px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.degree-image-container {
-    transition: transform 0.3s ease-in-out; /* This line makes the scaling smooth */
+    max-width: 100%;
+    height: auto;
 }
 
-.degree-image-container:hover {
-    transform: scale(1.2); /* This scales the image up to 120% when hovered */
-}
-
-
-/* Footer styles */
 .site-footer {
-    background-color: #34495e;
+    background-color: #2E3A4B;
+    color: #FFFFFF;
     padding: 20px;
     text-align: center;
-    margin-top: 20px;
-    color: white;
-}
-
-.footer-content p {
-    margin-bottom: 10px;
-}
-
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-    .content-wrapper {
-        flex-direction: column;
-    }
-
-    .left-section {
-        margin-right: 0;
-        flex-direction: column;
-    }
-
-    .education-section .education {
-        flex-direction: column;
-    }
-
-    .degree-image {
-        max-width: 100%;
-        height: auto;
-    }
 }

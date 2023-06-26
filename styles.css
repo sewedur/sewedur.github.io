@@ -12,7 +12,7 @@ body, html {
 .profile-image {
     width: 40%;
     height: auto;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
 }

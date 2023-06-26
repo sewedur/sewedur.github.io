@@ -22,20 +22,29 @@ body, h1, h2, h3, p, ul {
     flex: 1;
     display: flex;
     flex-direction: column;
+    padding: 1rem;
 }
 
 /* Add backgrounds, margin and padding to the summary and skills section */
-.summary-section, .skills-section {
-    background: #f4f4f4;
+.summary-section {
+    background: #dfe6e9;
     padding: 1rem;
     margin-bottom: 1rem;
     flex-grow: 1;
+    border-radius: 10px;
+}
+
+.skills-section {
+    background: #a29bfe;
+    padding: 1rem;
+    flex-grow: 1;
+    border-radius: 10px;
 }
 
 /* Style the right section */
 .right-section {
     flex: 1;
-    background: #e0e0e0;
+    background: #ffeaa7;
     text-align: center;
     padding: 1rem;
 }
@@ -44,34 +53,10 @@ body, h1, h2, h3, p, ul {
 .profile-image {
     max-width: 80%;
     margin-top: 2rem;
+    border-radius: 10px;
 }
 
 /* Add some space between list items in skills */
 .skills-section ul {
     margin-top: 1rem;
-    padding-left: 1.5rem;
-}
-
-
-.education {
-    display: flex;
-    align-items: center;
-}
-
-.education-content {
-    flex: 1;
-}
-
-.degree-image-container {
-    margin-left: 1rem;
-}
-
-.degree-image {
-    max-width: 150px;
-    border-radius: 5px;
-}
-
-ul {
-    list-style: asterisk;
-    padding-left: 0;
-}
+    padding-left: 1.5rem

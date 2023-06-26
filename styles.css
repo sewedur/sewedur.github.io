@@ -23,7 +23,7 @@ body, html {
 .section {
     margin-bottom: 2rem;
     padding: 1rem;
-    background: #f4f4f4;
+    background: #fc0000;
 }
 
 .skills-content {
@@ -44,7 +44,6 @@ body, html {
     max-width: 100%;
     height: auto;
 }
-
 
 .education {
     display: flex;

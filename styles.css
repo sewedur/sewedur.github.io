@@ -9,6 +9,7 @@
 /* Content wrapper styling */
 .content-wrapper {
     display: flex;
+    flex-wrap: wrap;
     margin: 1rem;
 }
 
@@ -44,8 +45,8 @@
 
 .profile-image {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 /* Experience section styling */
@@ -53,7 +54,6 @@
     background-color: #dfe6e9;
     padding: 1rem;
     margin: 1rem;
-    margin-bottom: 1rem;
     border-radius: 10px;
 }
 
@@ -66,12 +66,30 @@
     background-color: #dfe6e9;
     padding: 1rem;
     margin: 1rem;
-    margin-bottom: 1rem;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .education {
-    margin-bottom: 1rem;
+    flex: 1;
+    display: flex;
+}
+
+.education-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.degree-image-container {
+    flex: 1;
+    text-align: center;
+}
+
+.degree-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* Certifications section styling */
@@ -87,7 +105,6 @@
     background-color: #ffeaa7;
     padding: 1rem;
     margin: 1rem;
-    margin-bottom: 1rem;
     border-radius: 10px;
 }
 
@@ -97,4 +114,11 @@
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .left-section, .right-section {
+        flex: 100%;
+        margin-right: 0;
+    }
 }

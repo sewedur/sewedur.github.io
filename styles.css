@@ -21,9 +21,12 @@ body, html {
 }
 
 summary-section {
+    display: flex;
+    justify-content: left;
+    background-position: left;
     margin-bottom: 2rem;
-    justify-content: space-between;
-    display: left;
+    padding: 1rem;
+    background: rgba(132, 131, 131, 0.874)
 }
 
 .section {

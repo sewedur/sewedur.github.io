@@ -30,10 +30,10 @@ body, html {
 }
 
 .section {
+    justify-content: flex-start;
     margin-bottom: 2rem;
     padding: 1rem;
     background: #f4f4f4;
-    margin-left: 40%;
 }
 
 .education {

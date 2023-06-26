@@ -3,22 +3,26 @@ body, h1, h2, h3, p {
     padding: 0;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
-profile-image {
-    justify-content: right;
-    width: 150px;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: block;
+
+.profile-image {
+    width: 40%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
+
 .site-header, .site-footer {
     background: #333;
     color: #ffffff;
     text-align: center;
     padding: 1rem 0;
+    margin-left: 40%;
 }
 
 .site-main {
@@ -29,6 +33,7 @@ profile-image {
     margin-bottom: 2rem;
     padding: 1rem;
     background: #f4f4f4;
+    margin-left: 40%;
 }
 
 .education {

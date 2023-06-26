@@ -7,7 +7,13 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
-
+profile-image {
+    justify-content: right;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
 .site-header, .site-footer {
     background: #333;
     color: #ffffff;

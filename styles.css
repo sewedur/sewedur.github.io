@@ -96,6 +96,14 @@ body {
     object-fit: cover;
     border-radius: 10px;
 }
+.degree-image-container {
+    transition: transform 0.3s ease-in-out; /* This line makes the scaling smooth */
+}
+
+.degree-image-container:hover {
+    transform: scale(1.2); /* This scales the image up to 120% when hovered */
+}
+
 
 /* Footer styles */
 .site-footer {

@@ -9,40 +9,36 @@ body, html {
     height: 100%;
 }
 
-.site-header, .site-footer {
+.site-header {
     background: #333;
     color: #ffffff;
     text-align: center;
     padding: 1rem 0;
 }
 
-.site-main {
+.content-wrapper {
+    display: flex;
+}
+
+.left-section {
+    flex: 1;
+    background: #f4f4f4;
     padding: 2rem;
 }
 
-.section {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background: #333;
-}
-
-.skills-content {
-    display: flex;
-    justify-content: space-between;
-}
-
-.skills-text {
-    flex: 3;
-    padding-right: 20px;
-}
-
-.profile-image-container {
+.right-section {
     flex: 1;
+    background: #e0e0e0;
+    text-align: center;
 }
 
 .profile-image {
-    max-width: 100%;
-    height: auto;
+    max-width: 80%;
+    margin-top: 2rem;
+}
+
+.summary-section, .skills-section {
+    margin-bottom: 2rem;
 }
 
 .education {

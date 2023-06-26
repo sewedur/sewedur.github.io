@@ -1,62 +1,100 @@
-/* Reset some default margins and paddings */
-body, h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
-}
-
-/* Set up the header */
+/* Header styling */
 .site-header {
-    background: #333;
-    color: #ffffff;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem;
     text-align: center;
-    padding: 1rem 0;
 }
 
-/* Create a flex container to position the summary and skills section to the left and the image to the right */
+/* Content wrapper styling */
 .content-wrapper {
     display: flex;
+    margin: 1rem;
 }
 
-/* Style the left section */
-.left-section {
+.left-section, .right-section {
     flex: 1;
-    display: flex;
-    flex-direction: column;
     padding: 1rem;
 }
 
-/* Add backgrounds, margin and padding to the summary and skills section */
+/* Left Section styling */
+.left-section {
+    background-color: #dfe6e9;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
 .summary-section {
-    background: #dfe6e9;
+    background-color: #74b9ff;
     padding: 1rem;
     margin-bottom: 1rem;
-    flex-grow: 1;
     border-radius: 10px;
 }
 
 .skills-section {
-    background: #a29bfe;
+    background-color: #55efc4;
     padding: 1rem;
-    flex-grow: 1;
     border-radius: 10px;
 }
 
-/* Style the right section */
+/* Right Section styling */
 .right-section {
-    flex: 1;
-    background: #ffeaa7;
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Experience section styling */
+.experience-section {
+    background-color: #dfe6e9;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.job {
+    margin-bottom: 1rem;
+}
+
+/* Education section styling */
+.education-section {
+    background-color: #dfe6e9;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.education {
+    margin-bottom: 1rem;
+}
+
+/* Certifications section styling */
+.certifications-section {
+    background-color: #a29bfe;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+/* Portfolio section styling */
+.portfolio-section {
+    background-color: #ffeaa7;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+/* Footer section styling */
+.site-footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
     padding: 1rem;
 }
-
-/* Style the profile image */
-.profile-image {
-    max-width: 80%;
-    margin-top: 2rem;
-    border-radius: 10px;
-}
-
-/* Add some space between list items in skills */
-.skills-section ul {
-    margin-top: 1rem;
-    padding-left: 1.5rem

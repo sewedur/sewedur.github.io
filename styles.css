@@ -20,19 +20,10 @@ body, html {
     padding: 2rem;
 }
 
-summary-section {
-    display: flex;
-    justify-content: left;
-    background-position: left;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background: rgba(132, 131, 131, 0.874)
-}
-
 .section {
     margin-bottom: 2rem;
     padding: 1rem;
-    background: #fc0000;
+    background: #333;
 }
 
 .skills-content {

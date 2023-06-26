@@ -20,6 +20,12 @@ body, html {
     padding: 2rem;
 }
 
+summary-section {
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    display: left;
+}
+
 .section {
     margin-bottom: 2rem;
     padding: 1rem;

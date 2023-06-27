@@ -45,8 +45,8 @@
 
 .profile-image {
     border-radius: 10%;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height:90%;
 }
 
 /* Experience section styling */
@@ -87,8 +87,8 @@
 }
 
 .degree-image {
-    max-width: auto;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 

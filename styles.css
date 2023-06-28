@@ -72,6 +72,7 @@
 }
 
 .education {
+    padding: auto;
     flex: 1;
     display: flex;
 }
@@ -79,11 +80,12 @@
 .education-content {
     flex: 1;
     padding: 1rem;
+    text-align: start;
 }
 
 .degree-image-container {
     flex: 1;
-    text-align: center;
+    text-align: left;
 }
 
 .degree-image {

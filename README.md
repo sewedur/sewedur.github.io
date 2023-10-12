@@ -3,7 +3,7 @@ Hi, I'm Amos Kushalu, a dedicated and skilled professional with over 5 years of 
 
 # Amos Kushalu's Portfolio
 
-Visit my portfolio website at https://kushalu.ca/
+Visit my portfolio website at https://sewedur.github.io/
 
 This repository contains the source code and content for my personal portfolio website.
 
